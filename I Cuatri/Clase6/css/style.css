@@ -1,0 +1,45 @@
+p {
+    font-size: 30px;
+    color: rgb(255, 132, 0);
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    text-transform: capitalize;
+    font-weight: light;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Selector por clase */
+.clase_titulo {
+    color: blue;
+}
+
+
+/* Selector por ID */
+#parrafo3 {
+    text-decoration: line-through;
+}
+
+
+/* Selector descendiente */
+.contenedor p {
+    text-align: right;
+}
+
+
+/* Selector combinado */
+h2,p{
+    text-transform: lowercase;
+}
+
+
+/* Selector universal */
+*{
+    background-color: aquamarine;
+}

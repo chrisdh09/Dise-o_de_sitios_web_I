@@ -1,0 +1,43 @@
+/* ID */
+#unico{
+    color: red;
+}
+
+/*Class*/
+
+.resaltar{
+    font-weight: bold;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+/* Backgrounds */
+h1{
+    background-color: tomato;
+}
+
+body{
+    
+        /* background-size: 300px;
+    background-image: url("../IMGS/Abeja.avif");
+    background-repeat: no-repeat;
+    background-position: right top ; primero va el valor en X y luego el valor en Y */
+
+    background: url(../IMGS/Abeja.avif) no-repeat right top / 300px;
+    
+}
+
+p {    
+    /* font-style: italic;
+    font-size: 15px;
+    font-weight: 300;
+    font: italic 15px ; */
+
+    /*esto es un shorthand*/
+    font: italic bold 20px Georgia, sans-serif
+}
+
+
