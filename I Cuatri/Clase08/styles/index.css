@@ -1,0 +1,91 @@
+
+/* EJERCICIO 1 */
+
+a {
+    padding: 10px 5px;  /*Primer valor es Y y el segundo es X */
+    border-width: 3px;
+    border-style: dashed;
+    margin: 10px;
+
+    /* Extras */
+    text-decoration: none;
+    background-color: rgb(137, 172, 134);
+    color: antiquewhite;
+}
+
+body{
+    margin-top: 20px;
+}
+
+/* ------------------
+Selectores 
+-------------------- */
+
+/* Etiqueta */
+p{
+    margin: auto
+}
+
+/* Clase */
+.clase {
+    margin: auto;
+}
+
+/* ID */
+#idname{
+    margin: auto;
+}
+
+/* global */
+*{
+    margin: auto;
+}
+
+/* Selector descendiente */
+div.wrapper p a strong{
+    margin: auto;
+}
+
+/* selector multiple */
+p,a,strong{
+    margin: auto;
+}
+
+/* selector adyacente */
+ul+p{
+    margin: auto;
+}
+
+/* Selector de hijo primarios */
+
+body>p{
+    margin: auto;
+}
+
+/* Pseudo-elementos */
+p::first-letter{
+    margin: auto;
+}
+p::first-line{
+    margin: auto
+}
+
+/* Pseudo-clases */
+.clase:hover{
+    background-color: black;
+    color:white
+}
+
+
+
+.button{
+    color: white;
+    background-color: tomato;
+    border: 1px solid tomato;
+    padding: 5px 10px;
+}
+
+.button:hover{
+    color: tomato;
+    background-color: white;
+}
